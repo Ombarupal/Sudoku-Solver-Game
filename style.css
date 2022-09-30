@@ -1,7 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0%;
     padding: 0%;
     /* background-color: black; */
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Header{
     display: flex;
@@ -30,21 +45,22 @@ body{
 }
 
 .Heading{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
+    text-align: center;
+    /* font-size: 40px; */
     font-weight: bolder;
+    margin-top: 10px;
+    margin-left: -60px;
+    /* margin: 10px auto; */
 }
 
 .sudoku_grid{
+    
     display: flex;
     flex-direction: row;
     max-width: 578px;
+    /* width: 100%; */
     flex-wrap: wrap;
-
-    margin: 10px auto ;
+    margin: 10px;
 }
 
 .sudoku_grid div{
@@ -64,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;    
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 #GetPuzzle,#SolvePuzzle{
@@ -80,6 +96,10 @@ body{
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
     margin-right: 91px;
     margin-left: 39px;
+}
+#SolvePuzzle
+{
+    margin-left: 30px;
 }
 
 #GetPuzzle,#SolvePuzzle:hover{
