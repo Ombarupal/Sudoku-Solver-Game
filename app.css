@@ -441,7 +441,7 @@ nav {
     .main {
         height: 100vh;
     }
-    nav {
-        margint-top : 10px;
+    .nav-container {
+        padding-top : 15px;
     }
 }
