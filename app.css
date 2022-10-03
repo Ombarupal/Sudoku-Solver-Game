@@ -442,6 +442,7 @@ nav {
         height: 100vh;
     }
     .nav-container {
-        padding-top : 15px;
+        padding-top : 15px;'
+        height : fit-content;
     }
 }
