@@ -441,4 +441,7 @@ nav {
     .main {
         height: 100vh;
     }
+    nav {
+        margint-top : 10px;
+    }
 }
