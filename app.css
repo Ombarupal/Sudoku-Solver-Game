@@ -445,4 +445,10 @@ nav {
         padding-top : 15px;
         height : fit-content;
     }
+    #main {
+        margin-top : 20px;
+    }
+    #numbers {
+        margin-top : -20px;
+    }
 }
